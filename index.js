@@ -36,7 +36,10 @@ module.exports = {
 	},
 	settings: {
 		targets: ['last 2 versions'],
-		polyfills: ['fetch', 'Promise']
+		polyfills: ['fetch', 'Promise'],
+		react: {
+			version: 'latest'
+		}
 	},
 	rules: {
 		// react-related rules
@@ -84,7 +87,7 @@ module.exports = {
 					'render'
 				]
 			}
-	
+
 		}],
 
 		// stylistic rules

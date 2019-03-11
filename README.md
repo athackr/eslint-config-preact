@@ -1,13 +1,13 @@
-# eslint-config-developit
+# @hackr/eslint-config-preact
 
-developit's eslint configuration, with some sensible defaults for ES2015, React and Mocha.
+hackr's eslint configuration, with some sensible defaults for ES2015, Preact and Mocha.
 
 ## Installation
 
 Install eslint and this config:
 
 ```
-npm i -D eslint eslint-config-developit
+npm i -D eslint @hackr/eslint-config-preact
 ```
 
 Now in your `package.json`:
@@ -15,11 +15,11 @@ Now in your `package.json`:
 ````
 {
   "eslintConfig": {
-    "extends": "eslint-config-developit"
+    "extends": "@hackr/eslint-config-preact"
   }
 }
 ````
 
 ## Credits
 
-This is a modified version of [eslint-config-synacor](https://github.com/synacor/eslint-config-synacor)
+This is a modified version of [eslint-config-developit](https://github.com/developit/eslint-config-developit)
